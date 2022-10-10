@@ -5,6 +5,6 @@ int main() {
   scanf("%lf", &a);
   scanf("%lf", &b);
   s = (a+b)/2;
-  printf("%lf.5f", s);
+  printf("%.5f\n", s);
   return 0;
 }

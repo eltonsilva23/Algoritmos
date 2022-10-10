@@ -1,4 +1,4 @@
-compile = ["make", "-s"]
+compile = ["gcc", "main.c", "-w", "-o", "./main"]
 run = "./main"
 entrypoint = "main.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
